@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+
+main{
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+}
+
+.red{
+    color: rgb(0, 5, 75);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav li{
+    list-style: none;
+    margin: 1rem;
+    margin-top: .75rem;
+    margin-bottom: .25rem;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(0, 5, 75);
+}
+
+.topic{
+    width: 40rem;
+    padding: .15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: rgb(84, 138, 255);
+    border-color: rgb(255, 255, 255);
+    border: .15rem solid white;
+    margin: 1rem auto;
+}
+
+.inicio{
+    justify-content: center;
+    text-align: center;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    background-image: radial-gradient(rgb(69, 128, 255), rgb(55, 118, 255), rgb(0, 67, 212));
+}
+
+.inicio h3{
+    margin-bottom: .5rem;
+}
+
+section{
+    margin: 1.3rem;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    padding: 1.25rem;
+    margin-top: 1rem;
+    background-image: radial-gradient(rgb(69, 128, 255), rgb(55, 118, 255), rgb(0, 67, 212));
+}
+
+.link{
+    margin-top: 5rem;
+    text-decoration: none;
+    color: rgb(0, 5, 75);
+}
+
+.contatoEmail{
+    margin-bottom: .35rem;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.titulo{
+    margin: 1rem;
+    text-align: center;
+}
+
+.etapasLogi {
+    text-align: center;
+    justify-content: center;
+}
+
+.etapasLogi li{
+    margin: 1rem;
+    list-style: none;
+}
+
+.tabela{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.fluxo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40rem;
+    max-width: 100%;
+    padding: 1rem;
+}
